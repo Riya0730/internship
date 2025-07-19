@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://media.istockphoto.com/id/643950674/photo/education-background.jpg?s=612x612&w=0&k=20&c=NHXTfdIPbw1-oGNpKbhR-nSJGbOCqVQyqyhonps9_LQ='); /* Replace with your image path */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            text-align: center;
+            color: black;
+        }
+        .navbar {
+            background-color: transparent; /* Fully transparent navbar */
+            padding: 10px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .navbar a {
+            color: black;
+            text-decoration: none;
+            padding: 10px 15px;
+            font-weight: bold;
+        }
+        .container {
+            padding: 20px;
+        }
+        form {
+            background: rgba(255, 255, 255, 0); /* Fully transparent form background */
+            padding: 20px;
+            width: 50%;
+            margin: auto;
+            box-shadow: none; /* Removed shadow for full transparency */
+            border-radius: 10px;
+            border: 2px solid rgba(255, 255, 255, 0.3); /* Light border for visibility */
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid rgba(255, 255, 255, 0.3); /* Light border to make fields visible */
+            border-radius: 5px;
+            background: rgba(255, 255, 255, 0.2); /* Slight transparency for better readability */
+            color: black;
+        }
+        input::placeholder, textarea::placeholder {
+            color: black; /* Ensure placeholders remain readable */
+        }
+        button {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: darkgray;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="book1.html">Home</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="contactus.html">Contact Us</a>
+    </div>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="4" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</body>
+</html>
